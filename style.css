@@ -116,8 +116,8 @@ body {
     background-color: #eeeeee;
     display: flex;
     gap: 8px;
-    padding: 8px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .showcase-links button {
@@ -133,7 +133,7 @@ body {
     font-size: 15px;
     padding: 20px 20px;
     width: 180px;
-    border-radius: 8px;
+    border-radius: 10px;
     transition: 0.3s;
 }
 
