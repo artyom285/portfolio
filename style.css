@@ -19,7 +19,7 @@ body.dark {
     background: rgb(0, 0, 0, 0.95);
 }
 
-.bx-moon {
+#moon {
     position: absolute;
     cursor: pointer;
     top: 0%;
@@ -29,7 +29,7 @@ body.dark {
     margin-top: 30px;
 }
 
-.bx-moon.moon {
+#moon.moon {
     color: white;
 }
 
@@ -377,6 +377,10 @@ body.dark {
 
     .showcase-links button {
         width: 100%;
+    }
+
+    #moon {
+        margin-right: 40px;
     }
 }
 
