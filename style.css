@@ -45,7 +45,7 @@ body {
 .sn {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12.5px;
     margin-top: 20px;
 }
 
@@ -330,9 +330,7 @@ body {
         margin-left: 0px;
         margin-top: 30px;
     }
-}
 
-@media(max-width: 380px) {
     .skills-block {
         padding: 40px;
         gap: 40px;
