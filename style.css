@@ -7,11 +7,30 @@
     list-style: none;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    transition: 0.3s;
 }
 
 body {
     min-height: 100vh;
     padding: 100px 100px 60px 100px;
+}
+
+body.dark {
+    background: rgb(0, 0, 0, 0.95);
+}
+
+.bx-moon {
+    position: absolute;
+    cursor: pointer;
+    top: 0%;
+    right: 0%;
+    font-size: 24px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.bx-moon.moon {
+    color: white;
 }
 
 .info-block {
@@ -36,6 +55,10 @@ body {
     line-height: 1.3em;
 }
 
+.name.white {
+    color: white;
+}
+
 .position {
     color: grey;
     margin-top: 5px;
@@ -55,6 +78,10 @@ body {
     font-size: 24px;
 }
 
+.sn-a.sn-white {
+    color: white;
+}
+
 .sn2 {
     display: flex;
     align-items: center;
@@ -72,7 +99,6 @@ body {
     font-size: 15px;
     border-radius: 5px;
     padding: 20px 40px;
-    transition: 0.3s;
 }
 
 .cv:hover {
@@ -97,11 +123,19 @@ body {
     font-size: 24px;
     padding: 12.5px;
     border-radius: 5px;
-    transition: 0.3s;
 }
 
 .message a:hover {
     background-color: #e0e0e0;
+}
+
+.message-a.message-white {
+    background-color: #212121;
+    color: white;
+}
+
+.message-a.message-white:hover {
+    background-color: #424242;
 }
 
 .showcase-block {
@@ -120,7 +154,12 @@ body {
     border-radius: 10px;
 }
 
+.showcase-links.showcase-grey {
+    background-color: #212121;
+}
+
 .showcase-links button {
+    background: none;
     color: black;
     border: none;
     outline: none;
@@ -134,7 +173,6 @@ body {
     padding: 20px 20px;
     width: 180px;
     border-radius: 10px;
-    transition: 0.3s;
 }
 
 .showcase-links button i {
@@ -145,12 +183,25 @@ body {
     background-color: white;
 }
 
+.showcase-links #active.active-grey {
+    background: #424242;
+    color: white;
+}
+
 .showcase-links #active.fade {
     background: none;
 }
 
 .showcase-links #active2.up {
     background: white;
+}
+
+.showcase-links #active2.up.active-grey2 {
+    background: #424242;
+}
+
+.showcase-links #active2.active-grey2 {
+    color: white;
 }
 
 .portfolio {
@@ -264,6 +315,10 @@ body {
     border-radius: 10px;
 }
 
+.skills-block.skills_block-grey {
+    background-color: #212121;
+}
+
 .block {
     display: flex;
     flex-direction: column;
@@ -273,7 +328,7 @@ body {
 .skill {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .skill i {
@@ -284,6 +339,10 @@ body {
 .skill p {
     font-size: 15px;
     font-weight: 700;
+}
+
+.skill-p.skill-white {
+    color: white;
 }
 
 @media(max-width: 900px) {
