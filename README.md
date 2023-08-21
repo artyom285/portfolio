@@ -12,5 +12,5 @@ My single-page portfolio website is built using HTML, CSS, and JavaScript. The w
 ## Links
 
 * [Final result](https://tomshlyahtin.netlify.app/)
-* [Icons](https://react-icons.github.io/react-icons/)
+* [Icons](https://boxicons.com/)
 * [Media files resource](https://lexica.art/)
